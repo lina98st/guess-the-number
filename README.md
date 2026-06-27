@@ -6,9 +6,8 @@ A text-based number guessing game built with Python.
 
 - The computer picks a random number between 1 and 100.
 - You have 5 attempts to guess the correct number.
-- After each wrong guess, you will get a hint if you are close.
-- If you run out of attempts, the correct number will be revealed.
-- After each round, you can choose to play again.
+- After each wrong guess, you get a hint whether your guess was too high or too low.
+- If you run out of attempts, you lose the round.
 
 ## How to Run
 
@@ -20,5 +19,11 @@ python3 game.py
 
 - Random number generation
 - 5 attempts per round
-- "You are close" hint system
+- Higher / lower hints after each guess
+
+## Planned Features
+
+- "You are close" hint when the guess is near the number
+- Reveal the correct number when you lose
 - Play again option
+- Leaderboard with player names and scores
