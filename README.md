@@ -4,7 +4,7 @@ A text-based number guessing game built with Python.
 
 ## How to Play
 
-- The computer picks a random number between 1 and 100.
+- The computer picks a random number between 1 and 50.
 - You have 5 attempts to guess the correct number.
 - After each wrong guess, you get a hint whether your guess was too high or too low.
 - If you run out of attempts, you lose the round.
