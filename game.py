@@ -9,8 +9,8 @@ class Player:
 
     def play_game(self):
         print("Welcome to the Number guessing game, new Player!")
-        print("Rules: guess a number between 1 and 100, you have 5 attempts")
-        random_number = random.randint(1, 100)
+        print("Rules: guess a number between 1 and 50, you have 5 attempts")
+        random_number = random.randint(1, 50)
         won = False 
         for x in range(5):
             guess = int(input("Type a number: "))
